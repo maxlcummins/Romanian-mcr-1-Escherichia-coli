@@ -1,0 +1,3 @@
+input fasta file:	/home/mlcummin/ARIBA_databases/srst2_EcOH.fasta
+input tsv file:	/home/mlcummin/ARIBA_databases/srst2_EcOH.prepareref/00.auto_metadata.tsv
+genetic_code	11

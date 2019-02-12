@@ -1,0 +1,6 @@
+sample_ids : sample_ids.txt
+
+gene_dbs : gene_dbs.txt
+
+mlst_dbs : mlst_dbs.txt
+

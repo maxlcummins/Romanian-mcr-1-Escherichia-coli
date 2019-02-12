@@ -1,0 +1,3 @@
+input fasta file:	/home/mlcummin/ARIBA_databases/resfinder.fa
+input tsv file:	/home/mlcummin/ARIBA_databases/resfinder.tsv
+genetic_code	11

@@ -1,0 +1,118 @@
+import re
+import os
+import pandas as pd
+
+#open config file from pwd: config.yaml
+configfile: "config.yaml"
+
+#pull names of files generated in set-up step that contain filenames of reads, gene databases and mlst databases
+read_names = config["sample_ids"]
+gene_databases =  config["gene_dbs"]
+mlst_databases = config["mlst_dbs"]
+
+#read in the text files specified above
+reads = pd.read_csv(read_names, header=0, index_col=False, dtype={'sample_id': str})
+gene_dbs = pd.read_csv(gene_databases, header=0, index_col=False, dtype={'gene_database': str})
+mlst_dbs = pd.read_csv(mlst_databases, header=0, index_col=False, dtype={'mlst_database': str})
+
+#strip filename suffixes from reads and databases
+#convert from dataframes to pandas series object type (.T.squeeze())
+samples = reads[reads['sample_id'].str.contains("R1.fastq.gz")]
+samples = samples['sample_id'].replace('(.*)R1.fastq.gz', '\\1', regex=True).T.squeeze()
+gene_dbs = gene_dbs['gene_database'].replace('(.*).prepareref','\\1', regex=True).T.squeeze()
+mlst_dbs = mlst_dbs['mlst_database'].replace('(.*).mlstdb','\\1', regex=True).T.squeeze()
+
+#determines the desired outputs
+rule all:
+    input:
+        expand(directory("ariba_out/{gene_db}/{sample}.{gene_db}.out"), gene_db=gene_dbs, sample=samples),
+	expand("ariba_summaries/{gene_db}.csv", gene_db=gene_dbs),
+        expand("{mlst_db}_MLST.tsv", mlst_db=mlst_dbs),
+        "aribalord_in"
+
+
+#executes ariba run for each gene database and each read set and sends them to ariba out
+#--noclean flag is required as ariba run tries to delete temporary files as snakemake tries to timestamp them (?) which was causing run failures.
+#this step results in the production of a tonne of temp files which take a long time to remove - I would like to improve this.
+rule ariba:
+    input:
+        db = "databases/{gene_db}.prepareref",
+	    r1 = "reads/{sample}R1.fastq.gz",
+	    r2 = "reads/{sample}R2.fastq.gz"
+    output:
+        directory("ariba_out/{gene_db}/{sample}.{gene_db}.out")
+    threads: 200
+    shell:
+        "ariba run --threads 200 --noclean {input.db} {input.r1} {input.r2} {output}"
+
+#executes ariba run for each mlst database and each read set and sends them to ariba out
+#--noclean flag is required as ariba run tries to delete temporary files as snakemake tries to timestamp them (?) which was causing run failures.
+#this step results in the production of a tonne of temp files which take a long time to remove - I would like to improve this.
+rule ariba_mlst:
+    input:
+        mlstdb = "databases/{mlst_db}.mlstdb/ref_db",
+	    r1 = "reads/{sample}R1.fastq.gz",
+	    r2 = "reads/{sample}R2.fastq.gz"
+    output:
+        directory("mlst_out/{mlst_db}/{sample}.{mlst_db}.out")
+    threads: 200
+    shell:
+        """
+        ariba run --threads 200 --noclean {input.mlstdb} {input.r1} {input.r2} {output}
+        """
+
+#adds a tag for sample name to the end of each row for the MLST output files
+# -> needed before we can concatenate them together
+#perhaps this step can be combined with the one below or above?
+rule ariba_MLST_nametag:
+    input:
+        "mlst_out/{mlst_db}/{sample}.{mlst_db}.out"
+    output:
+        "{mlst_db}.mlst_reports/{sample}.mlst_report.tsv"
+    shell:
+        """
+        for f in {input}; do paste ${{f}}/mlst_report.tsv <(yes ${{f}}/mlst_report.tsv | head -n $(cat ${{f}}/mlst_report.tsv | wc -l)) > {output[0]}; done
+        """
+
+#combines the MLST outputs into a single file and cleans the path that trails and follows the sample names that we added in the rule above
+rule ariba_MLST_summary:
+    input:
+        expand("{mlst_db}.mlst_reports/{sample}.mlst_report.tsv", mlst_db=mlst_dbs, sample=samples)
+    output:
+        "{mlst_db}_MLST.tsv"
+    shell:
+        """
+	    cat {input} > {output}
+	    sed -i -E "s@(_\.|\.\.)[^\/]+/mlst_report.tsv@\\1@g" {output}
+        sed -i -E "s@mlst_out\/[^\/]+\/@@g" {output}
+        sed -i -E "s/(\_\.|\.\.)$//g" {output}
+        sed -i -E '1 ! s/ST.*//' {output}
+        sed -i '/^$/d' {output}
+	"""
+
+rule ariba_summary:
+    output:
+        "ariba_summaries/{gene_db}.csv"
+    params:
+        prefix="ariba_summaries/{gene_db}"
+    shell:
+        "ariba summary --cluster_cols assembled,ref_seq {params.prefix} ariba_out/{wildcards.gene_db}/*/report.tsv"
+
+rule ariba_summary_clean:
+    output:
+        directory("aribalord_in")
+    shell:
+        """
+        for f in ariba_summaries/*.csv; do sed -i -E 's@(_\.|\.\.).*report.tsv@@g' ${{f}}; sed -i -E 's@ariba_out/[^\/]+/@@g' ${{f}}; done
+        mkdir {output}        
+        mv ariba_summaries/*.csv {output}
+        mv *_MLST.tsv {output}
+        rm {output}/*phandango*        
+        """
+
+            
+
+    
+
+
+
