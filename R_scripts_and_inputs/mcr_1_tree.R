@@ -158,7 +158,7 @@ p <- ggtree(tree) %<+%
 #mcrpos heatmap_phylosift
 mcr_1 <- gheatmap(p = p, data = genotype_wsums,
               colnames_offset_y = -0.45,
-              font.size = 1,
+              font.size = 2,
               hjust = 0,
               colnames_position = "top",
               colnames_angle = 90,
@@ -166,6 +166,9 @@ mcr_1 <- gheatmap(p = p, data = genotype_wsums,
               color = "black",
               offset = 0.0195) + 
   scale_fill_manual(values = colorgenotype) +
-  theme(legend.position = "none")
+  theme(legend.position = "none") + ylim(NA, 18)
 
 mcr_1
+
+dev.copy(pdf, 'mcr_1.pdf')
+dev.off()
