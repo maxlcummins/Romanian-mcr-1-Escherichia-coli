@@ -1,50 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<BRIG blastOptions="" legendPosition="upper-right" queryFile="/Users/maxcummins/Dropbox/Liverpool_APEC/Liverpool_MCR_scaffolds/IncX/Ref/LT838201_pWI2.fa" outputFolder="/Users/maxcummins/Dropbox/Liverpool_APEC/Liverpool_MCR_scaffolds/IncX/Ref" blastPlus="yes" outputFile="/Users/maxcummins/Dropbox/Liverpool_APEC/Liverpool_MCR_scaffolds/IncX/Ref/LT838201_pWI2.fa" title="pWI2_LT838201" imageFormat="jpg" queryFastaFile="/Users/maxcummins/Dropbox/Liverpool_APEC/Liverpool_MCR_scaffolds/IncX/Ref/LT838201_pWI2.fa" cgXML="/Users/maxcummins/Dropbox/Liverpool_APEC/Liverpool_MCR_scaffolds/IncX/Ref/scratch/LT838201_pWI2.fa.xml">
-  <cgview_settings arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="3000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,35" warningFontColor="black" width="3000" zeroTickColor="black" tickLength="medium" />
+<BRIG blastOptions="" legendPosition="upper-right">
+  <cgview_settings arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2500" isLinear="false" labelFont="SansSerif,plain,30" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,40" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="true" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,50" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,40" warningFontColor="black" width="4000" zeroTickColor="black" tickLength="medium" />
   <brig_settings Ring1="172,14,225" Ring2="222,149,220" Ring3="161,221,231" Ring4="49,34,221" Ring5="116,152,226" Ring6="224,206,38" Ring7="40,191,140" Ring8="158,223,139" Ring9="226,38,122" Ring10="211,41,77" defaultUpper="70" defaultLower="50" defaultMinimum="50" genbankFiles="gbk,gb,genbank" fastaFiles="fna,faa,fas,fasta,fa" emblFiles="embl" blastLocation="/usr/local/ncbi/blast/bin" divider="3" multiplier="3" memory="1500" defaultSpacer="0" />
   <special value="GC Content" />
   <special value="GC Skew" />
-  <ring position="3" colour="173,129,218" name="Liv111M_ST744_Onovel32:H9" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
-    <sequence location="/Users/maxcummins/Dropbox/Liverpool_APEC/Liverpool_MCR_scaffolds/IncX/Liv111M.fa" blastResults="/Users/maxcummins/Dropbox/Liverpool_APEC/Liverpool_MCR_scaffolds/IncX/Ref/scratch/Liv111M.faVsLT838201_pWI2.fa.tab" />
-  </ring>
-  <refDir location="/Users/maxcummins/Dropbox/Liverpool_APEC/Liverpool_MCR_scaffolds/IncX">
-    <refFile location="/Users/maxcummins/Dropbox/Liverpool_APEC/Liverpool_MCR_scaffolds/IncX/Liv111M.fa" />
-    <refFile location="/Users/maxcummins/Dropbox/Liverpool_APEC/Liverpool_MCR_scaffolds/IncX/Liv30MA.fa" />
-    <refFile location="/Users/maxcummins/Dropbox/Liverpool_APEC/Liverpool_MCR_scaffolds/IncX/Liv30MB.fa" />
-    <refFile location="/Users/maxcummins/Dropbox/Liverpool_APEC/Liverpool_MCR_scaffolds/IncX/Liv37.fa" />
-    <refFile location="/Users/maxcummins/Dropbox/Liverpool_APEC/Liverpool_MCR_scaffolds/IncX/Liv37M.fa" />
-    <refFile location="/Users/maxcummins/Dropbox/Liverpool_APEC/Liverpool_MCR_scaffolds/IncX/Liv40.fa" />
-    <refFile location="/Users/maxcummins/Dropbox/Liverpool_APEC/Liverpool_MCR_scaffolds/IncX/Liv43M.fa" />
-    <refFile location="/Users/maxcummins/Dropbox/Liverpool_APEC/Liverpool_MCR_scaffolds/IncX/Liv53M.fa" />
-    <refFile location="/Users/maxcummins/Dropbox/Liverpool_APEC/Liverpool_MCR_scaffolds/IncX/Liv67.fa" />
-    <refFile location="/Users/maxcummins/Dropbox/Liverpool_APEC/Liverpool_MCR_scaffolds/IncX/Liv95.fa" />
-  </refDir>
-  <ring colour="0,204,255" name="Liv30MB_ST156_O4:H28" position="1" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
-    <sequence location="/Users/maxcummins/Dropbox/Liverpool_APEC/Liverpool_MCR_scaffolds/IncX/Liv30MB.fa" blastResults="/Users/maxcummins/Dropbox/Liverpool_APEC/Liverpool_MCR_scaffolds/IncX/Ref/scratch/Liv30MB.faVsLT838201_pWI2.fa.tab" />
-  </ring>
-  <ring colour="123,96,166" name="Liv37_ST744_Onovel32:H9" position="5" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
-    <sequence location="/Users/maxcummins/Dropbox/Liverpool_APEC/Liverpool_MCR_scaffolds/IncX/Liv37.fa" blastResults="/Users/maxcummins/Dropbox/Liverpool_APEC/Liverpool_MCR_scaffolds/IncX/Ref/scratch/Liv37.faVsLT838201_pWI2.fa.tab" />
-  </ring>
-  <ring colour="253,255,114" name="Liv37M_ST10_O16:H48" position="0" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
-    <sequence location="/Users/maxcummins/Dropbox/Liverpool_APEC/Liverpool_MCR_scaffolds/IncX/Liv37M.fa" blastResults="/Users/maxcummins/Dropbox/Liverpool_APEC/Liverpool_MCR_scaffolds/IncX/Ref/scratch/Liv37M.faVsLT838201_pWI2.fa.tab" />
-  </ring>
-  <ring colour="0,204,204" name="Liv40_ST156_O4:H28" position="2" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
-    <sequence location="/Users/maxcummins/Dropbox/Liverpool_APEC/Liverpool_MCR_scaffolds/IncX/Liv40.fa" blastResults="/Users/maxcummins/Dropbox/Liverpool_APEC/Liverpool_MCR_scaffolds/IncX/Ref/scratch/Liv40.faVsLT838201_pWI2.fa.tab" />
-  </ring>
-  <ring colour="73,50,143" name="Liv43M_ST744_Onovel32:H9" position="6" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
-    <sequence location="/Users/maxcummins/Dropbox/Liverpool_APEC/Liverpool_MCR_scaffolds/IncX/Liv43M.fa" blastResults="/Users/maxcummins/Dropbox/Liverpool_APEC/Liverpool_MCR_scaffolds/IncX/Ref/scratch/Liv43M.faVsLT838201_pWI2.fa.tab" />
-  </ring>
-  <ring colour="66,29,103" name="Liv53M_ST744_Onovel32:H9" position="7" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
-    <sequence location="/Users/maxcummins/Dropbox/Liverpool_APEC/Liverpool_MCR_scaffolds/IncX/Liv53M.fa" blastResults="/Users/maxcummins/Dropbox/Liverpool_APEC/Liverpool_MCR_scaffolds/IncX/Ref/scratch/Liv53M.faVsLT838201_pWI2.fa.tab" />
-  </ring>
-  <ring colour="153,255,153" name="Liv67_ST744_Onovel32:H9" position="8" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
-    <sequence location="/Users/maxcummins/Dropbox/Liverpool_APEC/Liverpool_MCR_scaffolds/IncX/Liv67.fa" blastResults="/Users/maxcummins/Dropbox/Liverpool_APEC/Liverpool_MCR_scaffolds/IncX/Ref/scratch/Liv67.faVsLT838201_pWI2.fa.tab" />
-  </ring>
-  <ring colour="223,164,181" name="Liv95_ST744_Onovel32:H9" position="9" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
-    <sequence location="/Users/maxcummins/Dropbox/Liverpool_APEC/Liverpool_MCR_scaffolds/IncX/Liv95.fa" blastResults="/Users/maxcummins/Dropbox/Liverpool_APEC/Liverpool_MCR_scaffolds/IncX/Ref/scratch/Liv95.faVsLT838201_pWI2.fa.tab" />
-  </ring>
-  <ring colour="255,153,204" name="Liv30MA_ST744_Onovel32:H9" position="4" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
-    <sequence location="/Users/maxcummins/Dropbox/Liverpool_APEC/Liverpool_MCR_scaffolds/IncX/Liv30MA.fa" blastResults="/Users/maxcummins/Dropbox/Liverpool_APEC/Liverpool_MCR_scaffolds/IncX/Ref/scratch/Liv30MA.faVsLT838201_pWI2.fa.tab" />
-  </ring>
 </BRIG>
 
