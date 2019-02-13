@@ -169,6 +169,3 @@ mcr_1 <- gheatmap(p = p, data = genotype_wsums,
   theme(legend.position = "none")
 
 mcr_1
-
-dev.copy(pdf, 'mcr_1.pdf')
-dev.off()

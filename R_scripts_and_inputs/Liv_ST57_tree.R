@@ -185,6 +185,3 @@ LivST57 <- gheatmap(p = p, data = genotype_wsums,
   theme(legend.position = "none")
 
 LivST57
-
-dev.copy(pdf, 'LivST57.pdf')
-dev.off()

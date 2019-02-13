@@ -173,7 +173,7 @@ p <- ggtree(tree) %<+%
 
 #mcrpos heatmap_phylosift
 LivST744 <- gheatmap(p = p, data = genotype_wsums,
-                    colnames_offset_y = -0.45,
+                    colnames_offset_y = -0.48,
                     font.size = 1.5,
                     hjust = 0,
                     colnames_position = "top",
@@ -185,7 +185,4 @@ LivST744 <- gheatmap(p = p, data = genotype_wsums,
   theme(legend.position = "none")
 
 LivST744
-
-dev.copy(pdf, 'LivST744.pdf')
-dev.off()
 
