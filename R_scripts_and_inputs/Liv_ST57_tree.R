@@ -7,6 +7,15 @@ library(magrittr)
 #read genotype data
 data <- read_csv("Liverpool_2019_simple.csv")
 
+#read in FQR data
+FQR_data <- read_csv("final_FQR_table.csv")
+
+#remove columns pertaining to WHICH mutations
+FQR_data <- FQR_data[,1:3]
+
+#join data and FQR data
+data <- left_join(data, FQR_data)
+
 #read tree file
 tree <- read.tree(file = "Liv_ST57.tree")
 

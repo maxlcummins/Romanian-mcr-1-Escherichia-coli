@@ -1,0 +1,9 @@
+	Liv111M_R1.fastq.gz.out	Liv30MA_R1.fastq.gz.out	Liv37_R1.fastq.gz.out	Liv43M_R1.fastq.gz.out	Liv53M_R1.fastq.gz.out	Liv67_R1.fastq.gz.out	Liv95_R1.fastq.gz.out	Reference
+Liv111M_R1.fastq.gz.out	0.0	0.0	2.0	5.0	4.0	2.0	1.0	0.0
+Liv30MA_R1.fastq.gz.out	0.0	0.0	2.0	5.0	4.0	2.0	1.0	0.0
+Liv37_R1.fastq.gz.out	2.0	2.0	0.0	7.0	6.0	4.0	3.0	2.0
+Liv43M_R1.fastq.gz.out	5.0	5.0	7.0	0.0	9.0	3.0	6.0	5.0
+Liv53M_R1.fastq.gz.out	4.0	4.0	6.0	9.0	0.0	6.0	5.0	4.0
+Liv67_R1.fastq.gz.out	2.0	2.0	4.0	3.0	6.0	0.0	3.0	2.0
+Liv95_R1.fastq.gz.out	1.0	1.0	3.0	6.0	5.0	3.0	0.0	1.0
+Reference	0.0	0.0	2.0	5.0	4.0	2.0	1.0	0.0

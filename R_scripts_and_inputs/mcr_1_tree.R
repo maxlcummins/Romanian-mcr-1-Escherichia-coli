@@ -10,6 +10,15 @@ data <- read_csv("Liverpool_2019_simple.csv")
 #read tree file
 tree <- read.tree(file = "mcr-1.tree")
 
+#read in FQR data
+FQR_data <- read_csv("final_FQR_table.csv")
+
+#remove columns pertaining to WHICH mutations
+FQR_data <- FQR_data[,1:3]
+
+#join data and FQR data
+data <- left_join(data, FQR_data)
+
 #Here a column called 'phyloname' is generated through joining strain names, sequence type and serotype
 data$phyloname <- paste(data$name, "_ST", data$ST, "_", data$OH_type, sep = "")
 
