@@ -175,7 +175,7 @@ mcr_1 <- gheatmap(p = p, data = genotype_wsums,
               color = "black",
               offset = 0.0195) + 
   scale_fill_manual(values = colorgenotype) +
-  theme(legend.position = "none") + ylim(NA, 18)
+  theme(legend.position = "none") + ylim(NA, 19)
 
 mcr_1
 

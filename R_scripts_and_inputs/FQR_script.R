@@ -53,7 +53,7 @@ gyrA_FQR_sum <- gyrA %>% select(name, gyrA)
 gyrA_FQR_sum <- aggregate(gyrA_FQR_sum$gyrA, by=list(name=gyrA_FQR_sum$name), FUN=sum)
 
 #fix the column names
-colnames(gyrA_FQR_sum) <- c('name','gyrA_mutation_count')
+colnames(gyrA_FQR_sum) <- c('name','r_gyrA*')
 
 #produce a column that lists the specific mutations identified in gyrA
 gyrA_mutations <- acast(gyrA, c(name, gyrA) ~ "gyrA_mutations", value.var= "ref_ctg_change",
@@ -71,7 +71,7 @@ parC_FQR_sum <- parC %>% select(name, parC)
 parC_FQR_sum <- aggregate(parC_FQR_sum$parC, by=list(name=parC_FQR_sum$name), FUN=sum)
 
 #fix the column names
-colnames(parC_FQR_sum) <- c('name','parC_mutation_count')
+colnames(parC_FQR_sum) <- c('name','r_parC*')
 
 #produce a column that lists the specific mutations identified in parC
 parC_mutations <- acast(parC, c(name, parC) ~ "parC_mutations", value.var= "ref_ctg_change",
@@ -90,6 +90,9 @@ final_FQR_table <- name_list %>%
   left_join(parC_FQR_sum) %>%
   left_join(gyrA_mutations) %>%
   left_join(parC_mutations)
+
+#replace NAs in columns with NA
+final_FQR_table[is.na(final_FQR_table)] <- 0
 
 #write table to csv
 write_csv(final_FQR_table, "final_FQR_table.csv")
