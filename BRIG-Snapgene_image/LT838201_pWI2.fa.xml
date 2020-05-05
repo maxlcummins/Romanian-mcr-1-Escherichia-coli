@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?><cgview arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2500" isLinear="false" labelFont="SansSerif,plain,30" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,40" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="true" showShading="true" showWarning="false" tickDensity="0.2333" tickThickness="medium" titleFont="SansSerif,plain,50" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,40" warningFontColor="black" width="4000" zeroTickColor="black" tickLength="medium"  sequenceLength="33304" title="pWI2_LT838201">
+<legend position="upper-right" font="Default,plain,40" backgroundOpacity="0.8">
+<legendItem text="Liv37M_ST10_O16:H48" />
+<legendItem text="100% identity" font="Default,plain,30" drawSwatch="true" swatchColor="rgb(225,225,125)" />
+<legendItem text="70% identity" font="Default,plain,30" drawSwatch="true" swatchColor="rgb(225,225,185)" />
+<legendItem text="50% identity" font="Default,plain,30" drawSwatch="true" swatchColor="rgb(225,225,225)" />
+<legendItem text="Liv30MB_ST156_O4:H28" />
+<legendItem text="100% identity" font="Default,plain,30" drawSwatch="true" swatchColor="rgb(25,225,225)" />
+<legendItem text="70% identity" font="Default,plain,30" drawSwatch="true" swatchColor="rgb(145,225,225)" />
+<legendItem text="50% identity" font="Default,plain,30" drawSwatch="true" swatchColor="rgb(225,225,225)" />
+<legendItem text="Liv40_ST156_O4:H28" />
+<legendItem text="100% identity" font="Default,plain,30" drawSwatch="true" swatchColor="rgb(25,225,225)" />
+<legendItem text="70% identity" font="Default,plain,30" drawSwatch="true" swatchColor="rgb(145,225,225)" />
+<legendItem text="50% identity" font="Default,plain,30" drawSwatch="true" swatchColor="rgb(225,225,225)" />
+<legendItem text="Liv111M_ST744_Onovel32:H9" />
+<legendItem text="100% identity" font="Default,plain,30" drawSwatch="true" swatchColor="rgb(125,225,75)" />
+<legendItem text="70% identity" font="Default,plain,30" drawSwatch="true" swatchColor="rgb(185,225,165)" />
+<legendItem text="50% identity" font="Default,plain,30" drawSwatch="true" swatchColor="rgb(225,225,225)" />
+<legendItem text="Liv30MA_ST744_Onovel32:H9" />
+<legendItem text="100% identity" font="Default,plain,30" drawSwatch="true" swatchColor="rgb(125,225,25)" />
+<legendItem text="70% identity" font="Default,plain,30" drawSwatch="true" swatchColor="rgb(185,225,145)" />
+<legendItem text="50% identity" font="Default,plain,30" drawSwatch="true" swatchColor="rgb(225,225,225)" />
+<legendItem text="Liv37_ST744_Onovel32:H9" />
+<legendItem text="100% identity" font="Default,plain,30" drawSwatch="true" swatchColor="rgb(125,225,75)" />
+<legendItem text="70% identity" font="Default,plain,30" drawSwatch="true" swatchColor="rgb(185,225,165)" />
+<legendItem text="50% identity" font="Default,plain,30" drawSwatch="true" swatchColor="rgb(225,225,225)" />
+<legendItem text="Liv43M_ST744_Onovel32:H9" />
+<legendItem text="100% identity" font="Default,plain,30" drawSwatch="true" swatchColor="rgb(125,225,75)" />
+<legendItem text="70% identity" font="Default,plain,30" drawSwatch="true" swatchColor="rgb(185,225,165)" />
+<legendItem text="50% identity" font="Default,plain,30" drawSwatch="true" swatchColor="rgb(225,225,225)" />
+<legendItem text="Liv53M_ST744_Onovel32:H9" />
+<legendItem text="100% identity" font="Default,plain,30" drawSwatch="true" swatchColor="rgb(125,225,75)" />
+<legendItem text="70% identity" font="Default,plain,30" drawSwatch="true" swatchColor="rgb(185,225,165)" />
+<legendItem text="50% identity" font="Default,plain,30" drawSwatch="true" swatchColor="rgb(225,225,225)" />
+<legendItem text="Liv67_ST744_Onovel32:H9" />
+<legendItem text="100% identity" font="Default,plain,30" drawSwatch="true" swatchColor="rgb(125,225,75)" />
+<legendItem text="70% identity" font="Default,plain,30" drawSwatch="true" swatchColor="rgb(185,225,165)" />
+<legendItem text="50% identity" font="Default,plain,30" drawSwatch="true" swatchColor="rgb(225,225,225)" />
+<legendItem text="Liv95_ST744_Onovel32:H9" />
+<legendItem text="100% identity" font="Default,plain,30" drawSwatch="true" swatchColor="rgb(125,225,75)" />
+<legendItem text="70% identity" font="Default,plain,30" drawSwatch="true" swatchColor="rgb(185,225,165)" />
+<legendItem text="50% identity" font="Default,plain,30" drawSwatch="true" swatchColor="rgb(225,225,225)" />
+</legend>
+<featureSlot strand="direct" featureThickness="30">
+<feature color="rgb(225,225,127)" decoration="arc" ><featureRange start="6" stop="31002" /></feature>
+<feature color="rgb(225,225,125)" decoration="arc" ><featureRange start="31152" stop="33082" /></feature>
+<feature color="rgb(225,225,125)" decoration="arc" ><featureRange start="30880" stop="31274" /></feature>
+<feature color="rgb(225,225,125)" decoration="arc" ><featureRange start="32960" stop="33304" /></feature>
+<feature color="rgb(225,225,125)" decoration="arc" ><featureRange start="1" stop="50" /></feature>
+</featureSlot><featureSlot strand="direct" featureThickness="30">
+<feature color="rgb(25,225,225)" decoration="arc" ><featureRange start="10" stop="20973" /></feature>
+<feature color="rgb(25,225,225)" decoration="arc" ><featureRange start="31152" stop="33082" /></feature>
+<feature color="rgb(29,225,225)" decoration="arc" ><featureRange start="21550" stop="31002" /></feature>
+<feature color="rgb(25,225,225)" decoration="arc" ><featureRange start="20853" stop="21672" /></feature>
+<feature color="rgb(25,225,225)" decoration="arc" ><featureRange start="30881" stop="31274" /></feature>
+<feature color="rgb(25,225,225)" decoration="arc" ><featureRange start="32961" stop="33304" /></feature>
+<feature color="rgb(25,225,225)" decoration="arc" ><featureRange start="1" stop="51" /></feature>
+</featureSlot><featureSlot strand="direct" featureThickness="30">
+<feature color="rgb(25,225,225)" decoration="arc" ><featureRange start="1" stop="20973" /></feature>
+<feature color="rgb(29,225,225)" decoration="arc" ><featureRange start="21550" stop="31002" /></feature>
+<feature color="rgb(25,225,225)" decoration="arc" ><featureRange start="31151" stop="33082" /></feature>
+<feature color="rgb(25,225,225)" decoration="arc" ><featureRange start="20852" stop="21672" /></feature>
+<feature color="rgb(25,225,225)" decoration="arc" ><featureRange start="30885" stop="31275" /></feature>
+<feature color="rgb(25,225,225)" decoration="arc" ><featureRange start="32965" stop="33304" /></feature>
+</featureSlot><featureSlot strand="direct" featureThickness="30">
+<feature color="rgb(133,225,87)" decoration="arc" ><featureRange start="17990" stop="19103" /></feature>
+<feature color="rgb(133,225,87)" decoration="arc" ><featureRange start="20010" stop="20568" /></feature>
+<feature color="rgb(139,225,96)" decoration="arc" ><featureRange start="31064" stop="31993" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="1" stop="17744" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="31871" stop="33304" /></feature>
+<feature color="rgb(127,225,78)" decoration="arc" ><featureRange start="30861" stop="31279" /></feature>
+<feature color="rgb(153,225,117)" decoration="arc" ><featureRange start="17657" stop="20181" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="21550" stop="30750" /></feature>
+<feature color="rgb(127,225,78)" decoration="arc" ><featureRange start="20010" stop="20973" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="20853" stop="21672" /></feature>
+<feature color="rgb(147,225,108)" decoration="arc" ><featureRange start="30606" stop="30836" /></feature>
+<feature color="rgb(169,225,141)" decoration="arc" ><featureRange start="30793" stop="30838" /></feature>
+</featureSlot><featureSlot strand="direct" featureThickness="30">
+<feature color="rgb(133,225,41)" decoration="arc" ><featureRange start="17990" stop="19103" /></feature>
+<feature color="rgb(133,225,41)" decoration="arc" ><featureRange start="20010" stop="20568" /></feature>
+<feature color="rgb(125,225,25)" decoration="arc" ><featureRange start="31871" stop="33082" /></feature>
+<feature color="rgb(143,225,61)" decoration="arc" ><featureRange start="31064" stop="31760" /></feature>
+<feature color="rgb(125,225,25)" decoration="arc" ><featureRange start="1" stop="17744" /></feature>
+<feature color="rgb(125,225,25)" decoration="arc" ><featureRange start="17922" stop="19103" /></feature>
+<feature color="rgb(127,225,29)" decoration="arc" ><featureRange start="30880" stop="31279" /></feature>
+<feature color="rgb(153,225,81)" decoration="arc" ><featureRange start="17657" stop="20181" /></feature>
+<feature color="rgb(125,225,25)" decoration="arc" ><featureRange start="21550" stop="31002" /></feature>
+<feature color="rgb(127,225,29)" decoration="arc" ><featureRange start="20314" stop="20973" /></feature>
+<feature color="rgb(125,225,25)" decoration="arc" ><featureRange start="20853" stop="21672" /></feature>
+<feature color="rgb(125,225,25)" decoration="arc" ><featureRange start="32960" stop="33304" /></feature>
+<feature color="rgb(155,225,85)" decoration="arc" ><featureRange start="31755" stop="31775" /></feature>
+<feature color="rgb(125,225,25)" decoration="arc" ><featureRange start="31799" stop="31811" /></feature>
+<feature color="rgb(145,225,65)" decoration="arc" ><featureRange start="31870" stop="31890" /></feature>
+<feature color="rgb(125,225,25)" decoration="arc" ><featureRange start="31797" stop="31811" /></feature>
+<feature color="rgb(137,225,49)" decoration="arc" ><featureRange start="31783" stop="31800" /></feature>
+</featureSlot><featureSlot strand="direct" featureThickness="30">
+<feature color="rgb(133,225,87)" decoration="arc" ><featureRange start="17990" stop="19103" /></feature>
+<feature color="rgb(133,225,87)" decoration="arc" ><featureRange start="20010" stop="20568" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="31871" stop="33082" /></feature>
+<feature color="rgb(143,225,102)" decoration="arc" ><featureRange start="31064" stop="31747" /></feature>
+<feature color="rgb(127,225,78)" decoration="arc" ><featureRange start="1" stop="17750" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="17936" stop="19103" /></feature>
+<feature color="rgb(127,225,78)" decoration="arc" ><featureRange start="30880" stop="31279" /></feature>
+<feature color="rgb(153,225,117)" decoration="arc" ><featureRange start="17657" stop="20181" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="21550" stop="31002" /></feature>
+<feature color="rgb(127,225,78)" decoration="arc" ><featureRange start="20010" stop="20973" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="20853" stop="21672" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="32960" stop="33304" /></feature>
+<feature color="rgb(155,225,120)" decoration="arc" ><featureRange start="31755" stop="31775" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="31798" stop="31809" /></feature>
+<feature color="rgb(145,225,105)" decoration="arc" ><featureRange start="31870" stop="31890" /></feature>
+<feature color="rgb(135,225,90)" decoration="arc" ><featureRange start="31745" stop="31764" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="31797" stop="31811" /></feature>
+<feature color="rgb(137,225,93)" decoration="arc" ><featureRange start="31783" stop="31800" /></feature>
+<feature color="rgb(139,225,96)" decoration="arc" ><featureRange start="31869" stop="31884" /></feature>
+<feature color="rgb(157,225,123)" decoration="arc" ><featureRange start="31804" stop="31828" /></feature>
+</featureSlot><featureSlot strand="direct" featureThickness="30">
+<feature color="rgb(133,225,87)" decoration="arc" ><featureRange start="17990" stop="19103" /></feature>
+<feature color="rgb(133,225,87)" decoration="arc" ><featureRange start="20010" stop="20568" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="1" stop="17744" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="17975" stop="19103" /></feature>
+<feature color="rgb(127,225,78)" decoration="arc" ><featureRange start="30880" stop="31279" /></feature>
+<feature color="rgb(153,225,117)" decoration="arc" ><featureRange start="17657" stop="20181" /></feature>
+<feature color="rgb(135,225,90)" decoration="arc" ><featureRange start="31871" stop="32478" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="21550" stop="31002" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="31871" stop="33082" /></feature>
+<feature color="rgb(127,225,78)" decoration="arc" ><featureRange start="20306" stop="20973" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="20853" stop="21672" /></feature>
+<feature color="rgb(127,225,78)" decoration="arc" ><featureRange start="31316" stop="31993" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="32960" stop="33304" /></feature>
+<feature color="rgb(157,225,123)" decoration="arc" ><featureRange start="31064" stop="31438" /></feature>
+</featureSlot><featureSlot strand="direct" featureThickness="30">
+<feature color="rgb(133,225,87)" decoration="arc" ><featureRange start="17990" stop="19103" /></feature>
+<feature color="rgb(133,225,87)" decoration="arc" ><featureRange start="20010" stop="20568" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="31871" stop="33082" /></feature>
+<feature color="rgb(143,225,102)" decoration="arc" ><featureRange start="31064" stop="31759" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="1" stop="17744" /></feature>
+<feature color="rgb(127,225,78)" decoration="arc" ><featureRange start="30880" stop="31279" /></feature>
+<feature color="rgb(153,225,117)" decoration="arc" ><featureRange start="17657" stop="20181" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="21550" stop="31002" /></feature>
+<feature color="rgb(127,225,78)" decoration="arc" ><featureRange start="20010" stop="20973" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="20853" stop="21672" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="32960" stop="33304" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="31778" stop="31791" /></feature>
+<feature color="rgb(155,225,120)" decoration="arc" ><featureRange start="31755" stop="31775" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="31799" stop="31811" /></feature>
+<feature color="rgb(145,225,105)" decoration="arc" ><featureRange start="31870" stop="31890" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="31798" stop="31809" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="31797" stop="31811" /></feature>
+<feature color="rgb(137,225,93)" decoration="arc" ><featureRange start="31783" stop="31800" /></feature>
+</featureSlot><featureSlot strand="direct" featureThickness="30">
+<feature color="rgb(133,225,87)" decoration="arc" ><featureRange start="17990" stop="19103" /></feature>
+<feature color="rgb(133,225,87)" decoration="arc" ><featureRange start="20010" stop="20568" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="31870" stop="33082" /></feature>
+<feature color="rgb(145,225,105)" decoration="arc" ><featureRange start="31064" stop="31684" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="1" stop="17744" /></feature>
+<feature color="rgb(127,225,78)" decoration="arc" ><featureRange start="30880" stop="31279" /></feature>
+<feature color="rgb(153,225,117)" decoration="arc" ><featureRange start="17657" stop="20181" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="21550" stop="31002" /></feature>
+<feature color="rgb(127,225,78)" decoration="arc" ><featureRange start="20010" stop="20973" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="20853" stop="21672" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="32960" stop="33304" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="31669" stop="31688" /></feature>
+<feature color="rgb(155,225,120)" decoration="arc" ><featureRange start="31755" stop="31775" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="31718" stop="31729" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="31799" stop="31811" /></feature>
+<feature color="rgb(135,225,90)" decoration="arc" ><featureRange start="31745" stop="31764" /></feature>
+<feature color="rgb(139,225,96)" decoration="arc" ><featureRange start="31719" stop="31733" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="31797" stop="31811" /></feature>
+<feature color="rgb(137,225,93)" decoration="arc" ><featureRange start="31783" stop="31800" /></feature>
+</featureSlot><featureSlot strand="direct" featureThickness="30">
+<feature color="rgb(133,225,87)" decoration="arc" ><featureRange start="17990" stop="19103" /></feature>
+<feature color="rgb(133,225,87)" decoration="arc" ><featureRange start="20010" stop="20568" /></feature>
+<feature color="rgb(127,225,78)" decoration="arc" ><featureRange start="31865" stop="33082" /></feature>
+<feature color="rgb(143,225,102)" decoration="arc" ><featureRange start="31064" stop="31755" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="1" stop="17747" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="17977" stop="19103" /></feature>
+<feature color="rgb(127,225,78)" decoration="arc" ><featureRange start="30880" stop="31279" /></feature>
+<feature color="rgb(153,225,117)" decoration="arc" ><featureRange start="17657" stop="20181" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="21550" stop="31002" /></feature>
+<feature color="rgb(127,225,78)" decoration="arc" ><featureRange start="20324" stop="20973" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="20853" stop="21672" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="32960" stop="33304" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="31778" stop="31791" /></feature>
+<feature color="rgb(155,225,120)" decoration="arc" ><featureRange start="31755" stop="31775" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="31799" stop="31811" /></feature>
+<feature color="rgb(125,225,75)" decoration="arc" ><featureRange start="31797" stop="31811" /></feature>
+<feature color="rgb(137,225,93)" decoration="arc" ><featureRange start="31783" stop="31800" /></feature>
+</featureSlot></cgview>
